@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3edf8;
+    margin: 0;
+    padding: 25px;
+    color: #333333;
+}
+
+#container {
+    width: 750px;
+    margin: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #d8c6e5;
+}
+
+h1 {
+    text-align: center;
+    color: #6b3b87;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #6b3b87;
+    border-bottom: 2px solid #d8c6e5;
+    padding-bottom: 8px;
+    margin-top: 28px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+td {
+    border: 1px solid #ddcfE8;
+    padding: 10px;
+}
+
+td:first-child {
+    width: 32%;
+    background-color: #f7f1fb;
+}
+
+.atas {
+    vertical-align: top;
+}
+
+label {
+    display: inline-block;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #c9b6d8;
+    font-family: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 6px 4px;
+}
+
+textarea {
+    width: 90%;
+}
+
+td p {
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.petunjuk {
+    font-size: 12px;
+    color: #777777;
+}
+
+.tombol {
+    text-align: center;
+    background-color: #f7f1fb;
+}
+
+input[type="submit"]{
+    padding: 10px 18px;
+    margin: 5px;
+    border: none;
+    background-color: #6b3b87;
+    color: #ffffff;
+    font-family: inherit;
+}
+
